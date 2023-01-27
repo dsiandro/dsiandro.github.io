@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mi CV</title>
+    <!-- Open Graph data -->
+ <meta property="og:title" content="Mi cv" />
+ <meta property="og:type" content="article" />
+ <meta property="og:url" content=" " />
+ <meta property="og:image" content="https://img.freepik.com/foto-gratis/feliz-joven_1098-20869.jpg?w=1800&t=st=1674577750~exp=1674578350~hmac=8544a0dc7462de18d9c0d84159b4b99326b735023fa46452dc1f2ec026c7decb"/>
+ <meta property="og:description" content="Este es mi modelo de cv" />
+</head>
+<body>
+   <header>
+    <section> 
+        
+       <img id="fotox"  src="https://img.freepik.com/foto-gratis/feliz-joven_1098-20869.jpg?w=1800&t=st=1674577750~exp=1674578350~hmac=8544a0dc7462de18d9c0d84159b4b99326b735023fa46452dc1f2ec026c7decb" alt="foto de hombre para cv">
+       <h1> Curriculum Vitae</h1>
+   </section>
+       
+   </header>
+   
+    <section>
+  <nav>
+    <ul>
+      <li> <button class="boton" id="nombre"> Nombre </button> </li>
+      <li> <button class="boton" id="apellido"> Apellido </button> </li>
+      <li> <button class="boton" id="direccion"> Dirección </button> </li>
+      <li> <button class="boton" id="email"> Email </button> </li>
+      <li> <button class="boton" id="whatsapp"> WhatsApp </button> </li>
+      <li> <button class="boton" id="instagram"> Instagram </button> </li>
+    </ul>
+    <div id="mensaje"></div>
+  </nav>
+   <article>
+    <h2 class="h2"> Habilidades</h2>
+     <ul id="ul2">
+         <li> <button class="ventas:"> Ventas </button><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </li> 
+         <li> <button class="oratoria:"> Oratoria </button> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li> 
+         <li> <button class="programacion:"> Programación </button> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li> 
+         <li> <button class="liderazgo:"> Liderazgo </button> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li> 
+     </ul>
+     <h2 class="h2"> Experiencia </h2>
+     <p id="exp" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </article> 
+</section>
+
+    <script type="text/javascript" src="funciones.js"></script>
+    <script>  document.getElementById('nombre').onclick = function () {
+        console.log("Nombre"); 
+        document.getElementById("mensaje").innerHTML = "David";
+    }
+          </script>
+</body>
+</html>
